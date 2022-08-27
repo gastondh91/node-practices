@@ -1,8 +1,8 @@
 import { Router } from 'express'
 const routes = Router()
 
-routes.get('/api', async (_req, res) => {
-  console.log('test route')
+routes.get('/', async (_req, res) => {
+  res.send('Welcome to the app for testing Node.js features')
 })
 
 export default routes
