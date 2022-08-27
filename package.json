@@ -1,8 +1,8 @@
 {
   "name": "node-practices",
+  "author": "Gaston d'Hiriart <gastondh91@gmail.com>",
   "version": "1.0.0",
   "main": "server.ts",
-  "author": "Gaston d'Hiriart <gastondh91@gmail.com>",
   "scripts": {
     "build": "tsc --project ./",
     "dev": "nodemon src/server.ts",
